@@ -77,7 +77,7 @@
            "key": "rzp_test_zR9owClk0lA0jW",
            "amount": (amount*100), // 2000 paise = INR 20
            "name": "Manish Foundation",
-           "description": "Payment",
+           "description": "We are donation company.",
            "image": "https://timesofindia.indiatimes.com/thumb/msid-69902898,imgsize-115506,width-800,height-600,resizemode-4/69902898.jpg",
            "handler": function (response){
                  $.ajax({
@@ -113,8 +113,8 @@
 
 
 
-         var rzp1 = new Razorpay(options);
-         rzp1.open();
+         var data = new Razorpay(options);
+         data.open();
 
 		})
 	})
